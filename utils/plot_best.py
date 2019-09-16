@@ -20,7 +20,7 @@ def plot_best(best_cromosome, cities, pause=True):
     plt.plot(xs_best, ys_best, linewidth=3)
 
     plt.plot(xs, ys, linewidth=1)
-    plt.pause(1000)
+    plt.pause(0.001)
 
 
 plt.show()
